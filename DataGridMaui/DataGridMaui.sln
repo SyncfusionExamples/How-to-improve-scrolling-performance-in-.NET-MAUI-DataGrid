@@ -5,10 +5,6 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGridMaui", "DataGridMaui\DataGridMaui.csproj", "{A3B6B87A-494C-4037-8405-85B7823C11E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syncfusion.Maui.Core", "..\maui-core\maui\src\core\Syncfusion.Maui.Core.csproj", "{E96D7054-EA7F-4B74-B46A-7CC28021A095}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syncfusion.Maui.DataGrid", "..\maui-datagrid\maui\src\datagrid\Syncfusion.Maui.DataGrid.csproj", "{D13B429B-FA89-4CF1-AE12-224316CC6F33}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,18 +21,6 @@ Global
 		{A3B6B87A-494C-4037-8405-85B7823C11E2}.Release-Xml|Any CPU.ActiveCfg = Release|Any CPU
 		{A3B6B87A-494C-4037-8405-85B7823C11E2}.Release-Xml|Any CPU.Build.0 = Release|Any CPU
 		{A3B6B87A-494C-4037-8405-85B7823C11E2}.Release-Xml|Any CPU.Deploy.0 = Release|Any CPU
-		{E96D7054-EA7F-4B74-B46A-7CC28021A095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E96D7054-EA7F-4B74-B46A-7CC28021A095}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E96D7054-EA7F-4B74-B46A-7CC28021A095}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E96D7054-EA7F-4B74-B46A-7CC28021A095}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E96D7054-EA7F-4B74-B46A-7CC28021A095}.Release-Xml|Any CPU.ActiveCfg = Release-Xml|Any CPU
-		{E96D7054-EA7F-4B74-B46A-7CC28021A095}.Release-Xml|Any CPU.Build.0 = Release-Xml|Any CPU
-		{D13B429B-FA89-4CF1-AE12-224316CC6F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D13B429B-FA89-4CF1-AE12-224316CC6F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D13B429B-FA89-4CF1-AE12-224316CC6F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D13B429B-FA89-4CF1-AE12-224316CC6F33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D13B429B-FA89-4CF1-AE12-224316CC6F33}.Release-Xml|Any CPU.ActiveCfg = Release-Xml|Any CPU
-		{D13B429B-FA89-4CF1-AE12-224316CC6F33}.Release-Xml|Any CPU.Build.0 = Release-Xml|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
