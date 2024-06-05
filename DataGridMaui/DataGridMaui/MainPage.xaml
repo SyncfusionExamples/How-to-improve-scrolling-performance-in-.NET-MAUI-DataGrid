@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataGridMaui.MainPage"
+             xmlns:local="clr-namespace:DataGridMaui"
+             xmlns:sfgrid="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid">
+
+    <ContentPage.BindingContext>
+        <local:OrderInfoViewModel x:Name="viewModel"/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <sfgrid:SfDataGrid ItemsSource="{Binding OrdersInfo}" ColumnWidthMode="Auto">
+            <sfgrid:SfDataGrid.Columns>
+                <sfgrid:DataGridNumericColumn MappingName="OrderID" HeaderText="Order ID" LoadUIView="False"/>
+                <sfgrid:DataGridNumericColumn MappingName="EmployeeID" HeaderText="Employee ID" LoadUIView="False"/>
+                <sfgrid:DataGridTextColumn MappingName="CustomerID" HeaderText="Customer ID" LoadUIView="False"/>
+                <sfgrid:DataGridTextColumn MappingName="FirstName" HeaderText="First Name" LoadUIView="False"/>
+                <sfgrid:DataGridTextColumn MappingName="LastName" HeaderText="Last Name" LoadUIView="False"/>
+                <sfgrid:DataGridTextColumn MappingName="Gender" HeaderText="Gender" LoadUIView="False"/>
+                <sfgrid:DataGridDateColumn MappingName="ShippingDate" HeaderText="Shipping Date" LoadUIView="False"/>
+                <sfgrid:DataGridTextColumn MappingName="ShipCity" HeaderText="Ship City" LoadUIView="False"/>
+                <sfgrid:DataGridTextColumn MappingName="ShipCountry" HeaderText="Ship Country" LoadUIView="False"/>
+                <sfgrid:DataGridNumericColumn MappingName="Freight" HeaderText="Freight" LoadUIView="False"/>
+                <sfgrid:DataGridNumericColumn MappingName="Price" HeaderText="Price" LoadUIView="False"/>
+            </sfgrid:SfDataGrid.Columns>
+        </sfgrid:SfDataGrid>
+    </ContentPage.Content>
+</ContentPage>
