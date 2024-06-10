@@ -19,8 +19,6 @@ The default value of this property is `true`. If you want to improve loading and
 {% endhighlight %}
 {% endtabs %}
 
-N> Download demo application from [GitHub](https://github.com/SyncfusionExamples/How-to-improve-scrolling-performance-in-.NET-MAUI-DataGrid).
-
 ### Limitations
 
 * Both implicit and explicit padding are not supported. However, left and right padding will be applied based on the padding, while the top and bottom positions will be adjusted based on the content.
