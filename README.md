@@ -8,16 +8,14 @@ If `LoadUIView` is set to `false`, the cell content will be drawn directly in th
 
 The default value of this property is `true`. If you want to improve loading and scrolling performance, you can simply set the `LoadUIView` property to `false`.
 
-{% tabs %}
-{% highlight xaml %}
+```xaml
 <sfgrid:SfDataGrid ItemsSource="{Binding OrdersInfo}">
     <sfgrid:SfDataGrid.Columns>
         <sfgrid:DataGridNumericColumn MappingName="OrderID" HeaderText="Order ID" LoadUIView="False"/>
         <sfgrid:DataGridTextColumn MappingName="CustomerID" HeaderText="Customer ID" LoadUIView="False"/>
     </sfgrid:SfDataGrid.Columns>
 </sfgrid:SfDataGrid>
-{% endhighlight %}
-{% endtabs %}
+```
 
 ### Limitations
 
